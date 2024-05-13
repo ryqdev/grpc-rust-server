@@ -1,5 +1,5 @@
 skeleton:
 	cargo build
 
-server:
+server: skeleton
 	cargo run --release --bin server
